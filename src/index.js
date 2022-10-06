@@ -1,17 +1,35 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+/* React */
+import {  StrictMode  } from 'react';
+import {  createRoot  } from 'react-dom/client';
+import {  HashRouter  } from 'react-router-dom';
+
+/* Style */
+import './Styles/global.css';
+
+/* Components */
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+/* Api */
+import LoadFont from './API/FontLoad';
+import initializeFirebase from './API/Firebase';
+
+
+
+
+
+LoadFont();
+initializeFirebase();
+
+
+const root = createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <StrictMode>
+    <HashRouter>
+      <App />
+    </HashRouter>
+  </StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 reportWebVitals();
