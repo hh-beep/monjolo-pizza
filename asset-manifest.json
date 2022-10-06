@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/monjolo-pizza/static/css/main.89ee9650.css",
+    "main.js": "/monjolo-pizza/static/js/main.0e4d1157.js",
+    "static/js/787.3d57df65.chunk.js": "/monjolo-pizza/static/js/787.3d57df65.chunk.js",
+    "static/media/Logo.svg": "/monjolo-pizza/static/media/Logo.3ec284a4b2f951c0d4510ed1c80a73e4.svg",
+    "static/media/teacher.svg": "/monjolo-pizza/static/media/teacher.f89fde9ed77ec5b9fa84954faf57eb62.svg",
+    "index.html": "/monjolo-pizza/index.html",
+    "main.89ee9650.css.map": "/monjolo-pizza/static/css/main.89ee9650.css.map",
+    "main.0e4d1157.js.map": "/monjolo-pizza/static/js/main.0e4d1157.js.map",
+    "787.3d57df65.chunk.js.map": "/monjolo-pizza/static/js/787.3d57df65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89ee9650.css",
+    "static/js/main.0e4d1157.js"
+  ]
+}
